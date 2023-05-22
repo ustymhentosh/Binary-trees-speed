@@ -10,8 +10,8 @@ We have 4 different situations. This is just one take.
 4. Searching in balanced  tree = 0.00905299186706543s
 
 ---
-`Essentially the fastest are last two methods, and it is generally good to balance your tree. Random order can sometimes be quite lucky too.`
+Essentially the fastest are last two methods, and it is generally good to balance your tree. Random order can sometimes be quite lucky too.
 
-`In theory alphabetic ordered tree search should be the slowest because it is just linear search then. But it is not always like this in my program, if we take more words from dictionary we can demonstrate better its slowness. Although building alphabetic ordered tree is by far the longest process here.`
+In theory alphabetic ordered tree search should be the slowest because it is just linear search then. But it is not always like this in my program, if we take more words from dictionary we can demonstrate better its slowness. Although building alphabetic ordered tree is by far the longest process here.
 
-`And python built in method is pretty bad here because we make list sorted, and it is designed for more random distributions.`
+And python built in method is pretty bad here because we make list sorted, and it is designed for more random distributions.
