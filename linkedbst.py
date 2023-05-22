@@ -128,7 +128,7 @@ class LinkedBST(AbstractCollection):
         Raises: KeyError if item is not in self.
         postcondition: item is removed from self."""
         if not item in self:
-            raise KeyError("Item not in tree.""")
+            raise KeyError("Item not in tree.")
 
         # Helper function to adjust placement of an item
         def liftMaxInLeftSubtreeToTop(top):
@@ -211,7 +211,8 @@ class LinkedBST(AbstractCollection):
     def replace(self, item, newItem):
         """
         If item is in self, replaces it with newItem and
-        returns the old item, or returns None otherwise."""
+        returns the old item, or returns None otherwise.
+        """
         probe = self._root
         while probe != None:
             if probe.num == BSTNode(item).num:
@@ -241,7 +242,7 @@ class LinkedBST(AbstractCollection):
 
     def range_find(self, low, high):
         '''
-        Returns a list of the items in the tree, where low <= item <= high."""
+        Returns a list of the items in the tree, where low <= item <= high.
         :param low:
         :param high:
         :return:
